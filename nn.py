@@ -6,62 +6,54 @@ from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras.utils import np_utils
 
+batch_size = 400
+num_classes = 10
+epochs = 1
+iterations_count = 10;
+
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
-print(x_train.shape, y_train.shape)
+image_size = x_train.shape[1]
 
-x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
-x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
-input_shape = (28, 28, 1)
+train_data = x_train.reshape(x_train.shape[0], image_size*image_size)
+test_data = x_test.reshape(x_test.shape[0], image_size*image_size)
+train_data = train_data.astype('float32')
+test_data = test_data.astype('float32')
 
-y_train = keras.utils.np_utils.to_categorical(y_train, 10)
-y_test = keras.utils.np_utils.to_categorical(y_test, 10)
+train_data /= 255.0
+test_data /= 255.0
 
-x_train = x_train.astype('float32')
-x_test = x_test.astype('float32')
-x_train /= 255
-x_test /= 255
-print('x_train shape:', x_train.shape)
-print(x_train.shape[0], 'train samples')
-print(x_test.shape[0], 'test samples')
+train_labels_cat = keras.utils.to_categorical(y_train, num_classes)
+test_labels_cat = keras.utils.to_categorical(y_test, num_classes)
 
-batch_size = 128
-num_classes = 10
-epochs = 10
+sum = 0
+for j in range(iterations_count):
+    model = Sequential()
+    model.add(Dense(24, activation='relu', input_shape=(28 * 28,)))
+    model.add(Dense(num_classes, activation='softmax'))
 
-model = Sequential()
-model.add(Conv2D(32, kernel_size=(5, 5), activation='relu', input_shape=input_shape))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Conv2D(64, (3, 3), activation='relu'))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Flatten())
-model.add(Dense(128, activation='relu'))
-model.add(Dropout(0.3))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(num_classes, activation='softmax'))
+    model.compile(loss=keras.losses.categorical_crossentropy,
+                  optimizer=tensorflow.keras.optimizers.Adam(learning_rate=0.1,
+                                                             beta_1=0.05,
+                                                             beta_2=0.05,
+                                                             epsilon=1e-07,
+                                                             amsgrad=False,
+                                                             name='Adam', ),
+                  metrics=['accuracy'])
 
-model.compile(loss=keras.losses.categorical_crossentropy,
-              optimizer=tensorflow.keras.optimizers.Adam(learning_rate=0.01,
-                                                         beta_1=0.9,
-                                                         beta_2=0.999,
-                                                         epsilon=1e-07,
-                                                         amsgrad=False,
-                                                         name='Adam',),
-              metrics=['accuracy'])
+    hist = model.fit(train_data,
+                     train_labels_cat,
+                     batch_size=batch_size,
+                     epochs=epochs,
+                     verbose=1,
+                     validation_data=(test_data, test_labels_cat))
 
-hist = model.fit(x_train,
-                 y_train,
-                 batch_size=batch_size,
-                 epochs=epochs,
-                 verbose=1,
-                 validation_data=(x_test, y_test))
+    #print("The model has successfully trained")
+    score = model.evaluate(test_data, test_labels_cat, verbose=0)
+    sum += score[1]
+    #print('Test loss:', score[0])
+    #print('Test accuracy:', score[1])
 
-print("The model has successfully trained")
-
-score = model.evaluate(x_test, y_test, verbose=0)
-print('Test loss:', score[0])
-print('Test accuracy:', score[1])
-
-model.save('mnist.h5')
-print("Saving the model as mnist.h5")
+print('Average accuracy:', sum / 10.0)
+#model.save('mnist.h5')
+#print("Saving the model as mnist.h5")

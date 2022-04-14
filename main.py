@@ -12,7 +12,7 @@ def predict_digit(img):
     img = img.convert('L')
     img = ImageOps.invert(img)
     img = np.array(img)
-    img = img.reshape(1, 28, 28, 1)
+    img = img.reshape(1, 28 * 28)
     img = img / 255.0
     res = model.predict([img])[0]
     return np.argmax(res), max(res)
