@@ -1,0 +1,232 @@
+Dropout = 0.00%, Accuracy = 0.8339699983596802, Min = 0.7746999859809875, Max = 0.8823000192642212
+Dropout = 10.00%, Accuracy = 0.826470011472702, Min = 0.7613999843597412, Max = 0.8578000068664551
+Dropout = 20.00%, Accuracy = 0.7908500075340271, Min = 0.6775000095367432, Max = 0.8554999828338623
+Dropout = 30.00%, Accuracy = 0.7648299932479858, Min = 0.699999988079071, Max = 0.8169000148773193
+Dropout = 40.00%, Accuracy = 0.705430006980896, Min = 0.5759999752044678, Max = 0.7720000147819519
+Dropout = 50.00%, Accuracy = 0.6302999973297119, Min = 0.5404999852180481, Max = 0.7364000082015991
+Dropout = 60.00%, Accuracy = 0.5141200006008149, Min = 0.37400001287460327, Max = 0.6453999876976013
+Dropout = 70.00%, Accuracy = 0.3994700014591217, Min = 0.33000001311302185, Max = 0.5539000034332275
+Dropout = 80.00%, Accuracy = 0.31325999796390536, Min = 0.1777999997138977, Max = 0.38999998569488525
+Dropout = 90.00%, Accuracy = 0.18633999899029732, Min = 0.09830000251531601, Max = 0.3303999900817871
+
+Dropout = 0.00%, Accuracy = 0.8499199986457825, Min = 0.810699999332428, Max = 0.8816999793052673
+Dropout = 10.00%, Accuracy = 0.8393199980258942, Min = 0.7792999744415283, Max = 0.8761000037193298
+Dropout = 20.00%, Accuracy = 0.8192800104618072, Min = 0.7742000222206116, Max = 0.8568000197410583
+Dropout = 30.00%, Accuracy = 0.7244399964809418, Min = 0.6043999791145325, Max = 0.8544999957084656
+Dropout = 40.00%, Accuracy = 0.7103800058364869, Min = 0.5023000240325928, Max = 0.8043000102043152
+Dropout = 50.00%, Accuracy = 0.6273999989032746, Min = 0.4950000047683716, Max = 0.7026000022888184
+Dropout = 60.00%, Accuracy = 0.5499500066041947, Min = 0.36730000376701355, Max = 0.6247000098228455
+Dropout = 70.00%, Accuracy = 0.4383000016212463, Min = 0.2903999984264374, Max = 0.5458999872207642
+Dropout = 80.00%, Accuracy = 0.3382000058889389, Min = 0.23469999432563782, Max = 0.5052000284194946
+Dropout = 90.00%, Accuracy = 0.16869000047445298, Min = 0.10320000350475311, Max = 0.23919999599456787
+
+Dropout = 0.00%, Accuracy = 0.8475499987602234, Min = 0.8148999810218811, Max = 0.8853999972343445
+Dropout = 10.00%, Accuracy = 0.8361000001430512, Min = 0.8084999918937683, Max = 0.864300012588501
+Dropout = 20.00%, Accuracy = 0.8004299938678742, Min = 0.7129999995231628, Max = 0.8561000227928162
+Dropout = 30.00%, Accuracy = 0.6806300014257431, Min = 0.37380000948905945, Max = 0.8296999931335449
+Dropout = 40.00%, Accuracy = 0.6721899926662445, Min = 0.5546000003814697, Max = 0.8048999905586243
+Dropout = 50.00%, Accuracy = 0.6504500031471252, Min = 0.554099977016449, Max = 0.8076000213623047
+Dropout = 60.00%, Accuracy = 0.5153999954462052, Min = 0.42089998722076416, Max = 0.6351000070571899
+Dropout = 70.00%, Accuracy = 0.43794000148773193, Min = 0.3224000036716461, Max = 0.5347999930381775
+Dropout = 80.00%, Accuracy = 0.31750999987125395, Min = 0.25429999828338623, Max = 0.4596000015735626
+Dropout = 90.00%, Accuracy = 0.1597500003874302, Min = 0.0957999974489212, Max = 0.2703000009059906
+
+
+    Epochs: 1, Batch size: 200
+
+Dropout:  0.0%, Accuracy: 0.8464900, Min: 0.8122000, Max: 0.8701000
+Dropout: 10.0%, Accuracy: 0.7588300, Min: 0.6749000, Max: 0.8307000
+Dropout: 20.0%, Accuracy: 0.7485300, Min: 0.6653000, Max: 0.8119000
+Dropout: 30.0%, Accuracy: 0.6757600, Min: 0.5746000, Max: 0.7363000
+Dropout: 40.0%, Accuracy: 0.6258000, Min: 0.4248000, Max: 0.6902000
+Dropout: 50.0%, Accuracy: 0.5447300, Min: 0.4291000, Max: 0.6467000
+Dropout: 60.0%, Accuracy: 0.5233500, Min: 0.3918000, Max: 0.6525000
+Dropout: 70.0%, Accuracy: 0.4333000, Min: 0.2691000, Max: 0.6856000
+Dropout: 80.0%, Accuracy: 0.2871100, Min: 0.2007000, Max: 0.3980000
+Dropout: 90.0%, Accuracy: 0.1981000, Min: 0.1135000, Max: 0.2541000
+
+    Epochs: 1, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.8108400, Min: 0.7203000, Max: 0.8812000
+Dropout: 10.0%, Accuracy: 0.8312000, Min: 0.7571000, Max: 0.8816000
+Dropout: 20.0%, Accuracy: 0.8146900, Min: 0.7668000, Max: 0.8570000
+Dropout: 30.0%, Accuracy: 0.7693900, Min: 0.6865000, Max: 0.8278000
+Dropout: 40.0%, Accuracy: 0.6989900, Min: 0.5021000, Max: 0.8547000
+Dropout: 50.0%, Accuracy: 0.6323200, Min: 0.4706000, Max: 0.7211000
+Dropout: 60.0%, Accuracy: 0.5013500, Min: 0.2791000, Max: 0.5994000
+Dropout: 70.0%, Accuracy: 0.4263600, Min: 0.2259000, Max: 0.5271000
+Dropout: 80.0%, Accuracy: 0.3127000, Min: 0.1783000, Max: 0.5166000
+Dropout: 90.0%, Accuracy: 0.1830400, Min: 0.1032000, Max: 0.2735000
+
+    Epochs: 1, Batch size: 600
+
+Dropout:  0.0%, Accuracy: 0.8254800, Min: 0.7620000, Max: 0.8661000
+Dropout: 10.0%, Accuracy: 0.8421500, Min: 0.7771000, Max: 0.8844000
+Dropout: 20.0%, Accuracy: 0.8307400, Min: 0.7721000, Max: 0.8716000
+Dropout: 30.0%, Accuracy: 0.8026600, Min: 0.7326000, Max: 0.8557000
+Dropout: 40.0%, Accuracy: 0.7309700, Min: 0.5938000, Max: 0.8037000
+Dropout: 50.0%, Accuracy: 0.6656800, Min: 0.5240000, Max: 0.7891000
+Dropout: 60.0%, Accuracy: 0.5201000, Min: 0.2886000, Max: 0.6492000
+Dropout: 70.0%, Accuracy: 0.4277500, Min: 0.1726000, Max: 0.6247000
+Dropout: 80.0%, Accuracy: 0.3228400, Min: 0.1707000, Max: 0.4465000
+Dropout: 90.0%, Accuracy: 0.1749600, Min: 0.0974000, Max: 0.2729000
+
+    Epochs: 2, Batch size: 200
+
+Dropout:  0.0%, Accuracy: 0.8076300, Min: 0.7312000, Max: 0.8469000
+Dropout: 10.0%, Accuracy: 0.7307400, Min: 0.5398000, Max: 0.8283000
+Dropout: 20.0%, Accuracy: 0.6858500, Min: 0.5678000, Max: 0.8165000
+Dropout: 30.0%, Accuracy: 0.6887600, Min: 0.4873000, Max: 0.7681000
+Dropout: 40.0%, Accuracy: 0.6441600, Min: 0.5250000, Max: 0.6909000
+Dropout: 50.0%, Accuracy: 0.5725500, Min: 0.4904000, Max: 0.7000000
+Dropout: 60.0%, Accuracy: 0.5712900, Min: 0.4193000, Max: 0.6569000
+Dropout: 70.0%, Accuracy: 0.4577500, Min: 0.2176000, Max: 0.5948000
+Dropout: 80.0%, Accuracy: 0.3081800, Min: 0.2327000, Max: 0.4736000
+Dropout: 90.0%, Accuracy: 0.2061600, Min: 0.1028000, Max: 0.2901000
+
+    Epochs: 2, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.8732200, Min: 0.8304000, Max: 0.8922000
+Dropout: 10.0%, Accuracy: 0.8384500, Min: 0.8059000, Max: 0.8729000
+Dropout: 20.0%, Accuracy: 0.7789400, Min: 0.7007000, Max: 0.8466000
+Dropout: 30.0%, Accuracy: 0.7397100, Min: 0.6464000, Max: 0.8250000
+Dropout: 40.0%, Accuracy: 0.6743600, Min: 0.5216000, Max: 0.8210000
+Dropout: 50.0%, Accuracy: 0.6201000, Min: 0.5108000, Max: 0.7199000
+Dropout: 60.0%, Accuracy: 0.5528400, Min: 0.4455000, Max: 0.6164000
+Dropout: 70.0%, Accuracy: 0.4210300, Min: 0.3424000, Max: 0.5200000
+Dropout: 80.0%, Accuracy: 0.3060800, Min: 0.2031000, Max: 0.4135000
+Dropout: 90.0%, Accuracy: 0.1772800, Min: 0.0958000, Max: 0.2625000
+
+    Epochs: 2, Batch size: 600
+
+Dropout:  0.0%, Accuracy: 0.8703400, Min: 0.8124000, Max: 0.8920000
+Dropout: 10.0%, Accuracy: 0.8514600, Min: 0.8180000, Max: 0.8851000
+Dropout: 20.0%, Accuracy: 0.8119700, Min: 0.7134000, Max: 0.8534000
+Dropout: 30.0%, Accuracy: 0.7550300, Min: 0.5617000, Max: 0.8501000
+Dropout: 40.0%, Accuracy: 0.7147500, Min: 0.4858000, Max: 0.8219000
+Dropout: 50.0%, Accuracy: 0.6303400, Min: 0.5501000, Max: 0.7348000
+Dropout: 60.0%, Accuracy: 0.5558300, Min: 0.4425000, Max: 0.7080000
+Dropout: 70.0%, Accuracy: 0.4681400, Min: 0.2804000, Max: 0.5422000
+Dropout: 80.0%, Accuracy: 0.3563200, Min: 0.2569000, Max: 0.4849000
+Dropout: 90.0%, Accuracy: 0.1730800, Min: 0.0982000, Max: 0.2140000
+
+    Epochs: 3, Batch size: 200
+
+Dropout:  0.0%, Accuracy: 0.7540600, Min: 0.6463000, Max: 0.8144000
+Dropout: 10.0%, Accuracy: 0.7501000, Min: 0.6786000, Max: 0.7864000
+Dropout: 20.0%, Accuracy: 0.6824500, Min: 0.5400000, Max: 0.7861000
+Dropout: 30.0%, Accuracy: 0.6720400, Min: 0.4926000, Max: 0.7752000
+Dropout: 40.0%, Accuracy: 0.6244500, Min: 0.4332000, Max: 0.7337000
+Dropout: 50.0%, Accuracy: 0.5894000, Min: 0.4238000, Max: 0.7851000
+Dropout: 60.0%, Accuracy: 0.5175700, Min: 0.3990000, Max: 0.6081000
+Dropout: 70.0%, Accuracy: 0.4923600, Min: 0.4156000, Max: 0.5792000
+Dropout: 80.0%, Accuracy: 0.2884800, Min: 0.1041000, Max: 0.4167000
+Dropout: 90.0%, Accuracy: 0.2334800, Min: 0.1135000, Max: 0.3488000
+
+    Epochs: 3, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.8538900, Min: 0.8083000, Max: 0.8764000
+Dropout: 10.0%, Accuracy: 0.8135800, Min: 0.7756000, Max: 0.8456000
+Dropout: 20.0%, Accuracy: 0.7846000, Min: 0.7279000, Max: 0.8424000
+Dropout: 30.0%, Accuracy: 0.7242300, Min: 0.6103000, Max: 0.8104000
+Dropout: 40.0%, Accuracy: 0.6823000, Min: 0.5478000, Max: 0.7638000
+Dropout: 50.0%, Accuracy: 0.5853700, Min: 0.4832000, Max: 0.7190000
+Dropout: 60.0%, Accuracy: 0.5714900, Min: 0.3758000, Max: 0.6594000
+Dropout: 70.0%, Accuracy: 0.4459500, Min: 0.2886000, Max: 0.5775000
+Dropout: 80.0%, Accuracy: 0.2513500, Min: 0.1811000, Max: 0.3645000
+Dropout: 90.0%, Accuracy: 0.1608700, Min: 0.0974000, Max: 0.2717000
+
+    Epochs: 3, Batch size: 600
+
+Dropout:  0.0%, Accuracy: 0.8685100, Min: 0.7863000, Max: 0.9016000
+Dropout: 10.0%, Accuracy: 0.8451600, Min: 0.7887000, Max: 0.8782000
+Dropout: 20.0%, Accuracy: 0.8270300, Min: 0.7432000, Max: 0.8575000
+Dropout: 30.0%, Accuracy: 0.7960700, Min: 0.7405000, Max: 0.8460000
+Dropout: 40.0%, Accuracy: 0.7312800, Min: 0.6314000, Max: 0.8180000
+Dropout: 50.0%, Accuracy: 0.6366200, Min: 0.5719000, Max: 0.7512000
+Dropout: 60.0%, Accuracy: 0.5386100, Min: 0.4328000, Max: 0.6672000
+Dropout: 70.0%, Accuracy: 0.4484100, Min: 0.2611000, Max: 0.5767000
+Dropout: 80.0%, Accuracy: 0.3439100, Min: 0.2639000, Max: 0.4849000
+Dropout: 90.0%, Accuracy: 0.1628800, Min: 0.1008000, Max: 0.2582000
+
+    Epochs: 4, Batch size: 200
+
+Dropout:  0.0%, Accuracy: 0.7614400, Min: 0.7244000, Max: 0.7882000
+Dropout: 10.0%, Accuracy: 0.7308600, Min: 0.6579000, Max: 0.8271000
+Dropout: 20.0%, Accuracy: 0.7088200, Min: 0.6023000, Max: 0.8102000
+Dropout: 30.0%, Accuracy: 0.6333900, Min: 0.4536000, Max: 0.7604000
+Dropout: 40.0%, Accuracy: 0.6304600, Min: 0.5261000, Max: 0.7170000
+Dropout: 50.0%, Accuracy: 0.6101500, Min: 0.5606000, Max: 0.6427000
+Dropout: 60.0%, Accuracy: 0.5224500, Min: 0.3931000, Max: 0.6638000
+Dropout: 70.0%, Accuracy: 0.4275200, Min: 0.2936000, Max: 0.5825000
+Dropout: 80.0%, Accuracy: 0.3613200, Min: 0.2391000, Max: 0.4684000
+Dropout: 90.0%, Accuracy: 0.2176400, Min: 0.1028000, Max: 0.3697000
+
+    Epochs: 4, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.8202700, Min: 0.7848000, Max: 0.8585000
+Dropout: 10.0%, Accuracy: 0.7580600, Min: 0.6293000, Max: 0.8259000
+Dropout: 20.0%, Accuracy: 0.7216800, Min: 0.6838000, Max: 0.7950000
+Dropout: 30.0%, Accuracy: 0.7277100, Min: 0.6312000, Max: 0.7707000
+Dropout: 40.0%, Accuracy: 0.6557000, Min: 0.5269000, Max: 0.7689000
+Dropout: 50.0%, Accuracy: 0.6161500, Min: 0.4897000, Max: 0.7108000
+Dropout: 60.0%, Accuracy: 0.5539300, Min: 0.3860000, Max: 0.6551000
+Dropout: 70.0%, Accuracy: 0.4603800, Min: 0.3413000, Max: 0.5755000
+Dropout: 80.0%, Accuracy: 0.3027500, Min: 0.1135000, Max: 0.4260000
+Dropout: 90.0%, Accuracy: 0.1974300, Min: 0.1028000, Max: 0.3273000
+
+    Epochs: 4, Batch size: 600
+
+Dropout:  0.0%, Accuracy: 0.8666900, Min: 0.8222000, Max: 0.8809000
+Dropout: 10.0%, Accuracy: 0.8446400, Min: 0.7998000, Max: 0.8772000
+Dropout: 20.0%, Accuracy: 0.8127000, Min: 0.7109000, Max: 0.8612000
+Dropout: 30.0%, Accuracy: 0.7626300, Min: 0.6413000, Max: 0.8246000
+Dropout: 40.0%, Accuracy: 0.6992800, Min: 0.5896000, Max: 0.8022000
+Dropout: 50.0%, Accuracy: 0.6284400, Min: 0.5629000, Max: 0.6895000
+Dropout: 60.0%, Accuracy: 0.5145200, Min: 0.4003000, Max: 0.6485000
+Dropout: 70.0%, Accuracy: 0.4797300, Min: 0.1832000, Max: 0.5972000
+Dropout: 80.0%, Accuracy: 0.3298600, Min: 0.1779000, Max: 0.4661000
+Dropout: 90.0%, Accuracy: 0.1969500, Min: 0.1135000, Max: 0.3476000
+
+=======================================================================
+
+    Epochs: 1, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.8434100, Min: 0.7498000, Max: 0.8787000 Time: 1.029869
+Dropout: 10.0%, Accuracy: 0.8251300, Min: 0.7483000, Max: 0.8533000 Time: 1.045721
+Dropout: 20.0%, Accuracy: 0.7882500, Min: 0.6873000, Max: 0.8463000 Time: 1.022350
+Dropout: 30.0%, Accuracy: 0.6997400, Min: 0.5054000, Max: 0.7908000 Time: 1.024380
+Dropout: 40.0%, Accuracy: 0.6488300, Min: 0.5831000, Max: 0.7448000 Time: 1.022784
+Dropout: 50.0%, Accuracy: 0.6181200, Min: 0.4825000, Max: 0.6887000 Time: 1.036466
+Dropout: 60.0%, Accuracy: 0.4986800, Min: 0.3643000, Max: 0.6930000 Time: 1.106516
+Dropout: 70.0%, Accuracy: 0.4653700, Min: 0.3243000, Max: 0.6137000 Time: 1.098952
+Dropout: 80.0%, Accuracy: 0.2902200, Min: 0.1881000, Max: 0.4824000 Time: 1.059262
+Dropout: 90.0%, Accuracy: 0.1746900, Min: 0.1135000, Max: 0.2756000 Time: 1.112151
+
+    Epochs: 2, Batch size: 400
+
+Dropout:  0.0%, Accuracy: 0.855260, Min: 0.820800, Max: 0.888000 Time: 1.014470
+Dropout: 10.0%, Accuracy: 0.805520, Min: 0.633200, Max: 0.860900 Time: 1.006809
+Dropout: 20.0%, Accuracy: 0.787930, Min: 0.703700, Max: 0.836800 Time: 1.046261
+Dropout: 30.0%, Accuracy: 0.766810, Min: 0.683500, Max: 0.824100 Time: 1.020566
+Dropout: 40.0%, Accuracy: 0.696180, Min: 0.482600, Max: 0.804400 Time: 1.013822
+Dropout: 50.0%, Accuracy: 0.633120, Min: 0.520600, Max: 0.732900 Time: 1.053928
+Dropout: 60.0%, Accuracy: 0.553610, Min: 0.369500, Max: 0.644100 Time: 1.035012
+Dropout: 70.0%, Accuracy: 0.413570, Min: 0.281500, Max: 0.568500 Time: 1.001018
+Dropout: 80.0%, Accuracy: 0.336630, Min: 0.197200, Max: 0.505700 Time: 1.023003
+Dropout: 90.0%, Accuracy: 0.147360, Min: 0.100900, Max: 0.206000 Time: 1.033471
+
+    Epochs: 4, Batch size: 600
+
+Dropout:  0.0%, Accuracy: 0.874160, Min: 0.827900, Max: 0.900400 Time: 1.365402
+Dropout: 10.0%, Accuracy: 0.845810, Min: 0.825100, Max: 0.875800 Time: 1.396700
+Dropout: 20.0%, Accuracy: 0.796020, Min: 0.714900, Max: 0.819900 Time: 1.360448
+Dropout: 30.0%, Accuracy: 0.754490, Min: 0.691600, Max: 0.798100 Time: 1.385258
+Dropout: 40.0%, Accuracy: 0.730040, Min: 0.643500, Max: 0.805700 Time: 1.390688
+Dropout: 50.0%, Accuracy: 0.642810, Min: 0.505600, Max: 0.755800 Time: 1.377088
+Dropout: 60.0%, Accuracy: 0.592780, Min: 0.405500, Max: 0.720600 Time: 1.370855
+Dropout: 70.0%, Accuracy: 0.422850, Min: 0.294000, Max: 0.524400 Time: 1.374669
+Dropout: 80.0%, Accuracy: 0.326980, Min: 0.167300, Max: 0.519200 Time: 1.362485
+Dropout: 90.0%, Accuracy: 0.206920, Min: 0.103200, Max: 0.382500 Time: 1.387601
+Dropout:  0.0%, Accuracy: 0.871910, Min: 0.789500, Max: 0.895700 Time: 1.356505
+Dropout: 10.0%, Accuracy: 0.835900, Min: 0.783200, Max: 0.862700 Time: 1.393275
