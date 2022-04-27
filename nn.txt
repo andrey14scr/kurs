@@ -403,3 +403,120 @@ Dropout: 60.0%, Accuracy: 0.575367, Min: 0.453700, Max: 0.695500 Time: 0.518345
 Dropout: 70.0%, Accuracy: 0.423325, Min: 0.198600, Max: 0.619500 Time: 0.531488
 Dropout: 80.0%, Accuracy: 0.321483, Min: 0.185200, Max: 0.574300 Time: 0.518921
 Dropout: 90.0%, Accuracy: 0.155700, Min: 0.095800, Max: 0.264200 Time: 0.547428
+
+    Epochs: 2, Batch size: 400, Iterations: 14 
+
+Dropout:  0.0%, Accuracy: 0.940343, Min: 0.930300, Max: 0.947100 Time: 1020.427657ms
+Dropout: 10.0%, Accuracy: 0.940293, Min: 0.931700, Max: 0.944800 Time: 1048.932357ms
+Dropout: 20.0%, Accuracy: 0.934829, Min: 0.928500, Max: 0.942200 Time: 1029.422957ms
+Dropout: 30.0%, Accuracy: 0.930757, Min: 0.924400, Max: 0.937700 Time: 1046.060150ms
+Dropout: 40.0%, Accuracy: 0.923229, Min: 0.916900, Max: 0.928600 Time: 1047.150107ms
+Dropout: 50.0%, Accuracy: 0.914286, Min: 0.906700, Max: 0.921600 Time: 1018.228143ms
+Dropout: 60.0%, Accuracy: 0.904193, Min: 0.887300, Max: 0.914500 Time: 1056.494486ms
+Dropout: 70.0%, Accuracy: 0.889014, Min: 0.874500, Max: 0.898500 Time: 1045.640043ms
+Dropout: 80.0%, Accuracy: 0.852450, Min: 0.833700, Max: 0.878100 Time: 1036.093536ms
+Dropout: 90.0%, Accuracy: 0.698679, Min: 0.622100, Max: 0.772800 Time: 1054.374521ms
+
+    Epochs: 2, Batch size: 400, Iterations: 14 (15)
+
+Dropout:  0.0%, Accuracy: 0.923814, Min: 0.911200, Max: 0.931300 Time: 977.352871ms
+Dropout: 10.0%, Accuracy: 0.922050, Min: 0.907500, Max: 0.929100 Time: 1007.989650ms
+Dropout: 20.0%, Accuracy: 0.915264, Min: 0.906800, Max: 0.926200 Time: 1003.569714ms
+Dropout: 30.0%, Accuracy: 0.909157, Min: 0.899200, Max: 0.919400 Time: 1016.912857ms
+Dropout: 40.0%, Accuracy: 0.900857, Min: 0.891100, Max: 0.906700 Time: 1023.581100ms
+Dropout: 50.0%, Accuracy: 0.890821, Min: 0.859800, Max: 0.907500 Time: 1017.350529ms
+Dropout: 60.0%, Accuracy: 0.874800, Min: 0.865000, Max: 0.889500 Time: 1020.248393ms
+Dropout: 70.0%, Accuracy: 0.853400, Min: 0.832400, Max: 0.875700 Time: 1034.900693ms
+Dropout: 80.0%, Accuracy: 0.794014, Min: 0.718400, Max: 0.846500 Time: 1034.669486ms
+Dropout: 90.0%, Accuracy: 0.591107, Min: 0.451500, Max: 0.783700 Time: 1034.493779ms
+
+
+    Epochs: 2, Batch size: 400, Iterations: 14 (40)
+
+Dropout:  0.0%, Accuracy: 0.950971, Min: 0.941300, Max: 0.956700 Time: 1010.313843ms
+Dropout: 10.0%, Accuracy: 0.950300, Min: 0.945600, Max: 0.954800 Time: 1031.632464ms
+Dropout: 20.0%, Accuracy: 0.948186, Min: 0.942600, Max: 0.952800 Time: 1022.940650ms
+Dropout: 30.0%, Accuracy: 0.944621, Min: 0.940400, Max: 0.950300 Time: 1021.820807ms
+Dropout: 40.0%, Accuracy: 0.937150, Min: 0.928900, Max: 0.941900 Time: 1041.628450ms
+Dropout: 50.0%, Accuracy: 0.930579, Min: 0.923000, Max: 0.936700 Time: 1018.322943ms
+Dropout: 60.0%, Accuracy: 0.920900, Min: 0.913100, Max: 0.927900 Time: 1038.511250ms
+Dropout: 70.0%, Accuracy: 0.908379, Min: 0.903100, Max: 0.914700 Time: 1052.848129ms
+Dropout: 80.0%, Accuracy: 0.886064, Min: 0.872200, Max: 0.896700 Time: 1027.985786ms
+Dropout: 90.0%, Accuracy: 0.796379, Min: 0.742500, Max: 0.846400 Time: 1073.700229ms
+
+
+    Epochs: 2, Batch size: 400, Iterations: 20 (25)
+
+Dropout:  0.0%, Accuracy: 93.9975, Min: 92.650, Max: 94.720 Time: 955.485ms
+Dropout: 10.0%, Accuracy: 94.0715, Min: 93.490, Max: 94.460 Time: 992.694ms
+Dropout: 20.0%, Accuracy: 93.6395, Min: 93.050, Max: 94.050 Time: 981.205ms
+Dropout: 30.0%, Accuracy: 92.8450, Min: 91.440, Max: 93.460 Time: 993.078ms
+Dropout: 40.0%, Accuracy: 92.3725, Min: 91.780, Max: 92.940 Time: 994.535ms
+Dropout: 50.0%, Accuracy: 91.5040, Min: 90.350, Max: 92.100 Time: 981.237ms
+Dropout: 60.0%, Accuracy: 90.5675, Min: 89.870, Max: 91.650 Time: 999.703ms
+Dropout: 70.0%, Accuracy: 88.8160, Min: 87.200, Max: 90.290 Time: 981.556ms
+Dropout: 80.0%, Accuracy: 85.6620, Min: 83.380, Max: 87.080 Time: 1006.489ms
+Dropout: 90.0%, Accuracy: 66.5485, Min: 54.110, Max: 78.150 Time: 992.716ms
+
+For excel:
+ 0.0	93.998	955.485
+10.0	94.072	992.694
+20.0	93.639	981.205
+30.0	92.845	993.078
+40.0	92.373	994.535
+50.0	91.504	981.237
+60.0	90.567	999.703
+70.0	88.816	981.556
+80.0	85.662	1006.489
+90.0	66.549	992.716
+
+    Epochs: 2, Batch size: 400, Iterations: 20 (15)
+
+Dropout:  0.0%, Accuracy: 92.552%, Min: 91.46%, Max: 93.35%, Time: 927.508ms
+Dropout: 10.0%, Accuracy: 92.191%, Min: 90.90%, Max: 92.98%, Time: 965.181ms
+Dropout: 20.0%, Accuracy: 91.578%, Min: 88.70%, Max: 92.23%, Time: 968.959ms
+Dropout: 30.0%, Accuracy: 90.743%, Min: 89.77%, Max: 91.62%, Time: 987.471ms
+Dropout: 40.0%, Accuracy: 90.192%, Min: 89.06%, Max: 91.30%, Time: 971.160ms
+Dropout: 50.0%, Accuracy: 88.653%, Min: 85.71%, Max: 90.06%, Time: 971.892ms
+Dropout: 60.0%, Accuracy: 87.546%, Min: 86.00%, Max: 89.15%, Time: 1005.711ms
+Dropout: 70.0%, Accuracy: 85.584%, Min: 83.96%, Max: 87.31%, Time: 997.958ms
+Dropout: 80.0%, Accuracy: 79.862%, Min: 73.38%, Max: 84.35%, Time: 975.513ms
+Dropout: 90.0%, Accuracy: 57.292%, Min: 40.60%, Max: 72.55%, Time: 957.937ms
+
+For excel:
+ 0.0	92.552	927.508
+10.0	92.191	965.181
+20.0	91.578	968.959
+30.0	90.743	987.471
+40.0	90.192	971.160
+50.0	88.653	971.892
+60.0	87.546	1005.711
+70.0	85.584	997.958
+80.0	79.862	975.513
+90.0	57.292	957.937
+
+
+    Epochs: 2, Batch size: 400, Iterations: 20 (40)
+
+Dropout:  0.0%, Accuracy: 94.878%, Min: 93.69%, Max: 95.75%, Time: 961.298ms
+Dropout: 10.0%, Accuracy: 95.248%, Min: 94.94%, Max: 95.66%, Time: 990.721ms
+Dropout: 20.0%, Accuracy: 94.725%, Min: 93.90%, Max: 95.33%, Time: 977.086ms
+Dropout: 30.0%, Accuracy: 94.331%, Min: 93.94%, Max: 95.00%, Time: 970.498ms
+Dropout: 40.0%, Accuracy: 93.868%, Min: 93.22%, Max: 94.42%, Time: 976.005ms
+Dropout: 50.0%, Accuracy: 93.089%, Min: 92.33%, Max: 93.73%, Time: 960.435ms
+Dropout: 60.0%, Accuracy: 92.257%, Min: 91.43%, Max: 92.75%, Time: 984.967ms
+Dropout: 70.0%, Accuracy: 90.854%, Min: 89.44%, Max: 91.46%, Time: 976.831ms
+Dropout: 80.0%, Accuracy: 89.040%, Min: 88.03%, Max: 90.09%, Time: 984.090ms
+Dropout: 90.0%, Accuracy: 79.948%, Min: 74.84%, Max: 85.63%, Time: 973.901ms
+
+For excel:
+ 0.0	94.878	961.298
+10.0	95.248	990.721
+20.0	94.725	977.086
+30.0	94.331	970.498
+40.0	93.868	976.005
+50.0	93.089	960.435
+60.0	92.257	984.967
+70.0	90.854	976.831
+80.0	89.040	984.090
+90.0	79.948	973.901
