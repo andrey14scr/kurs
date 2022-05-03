@@ -24,7 +24,7 @@ beta = 0.05
 # Dropout parameters:
 dropout_step = 0.1
 # NN parameters:
-hidden_layer_size = 40
+hidden_layer_size_list = [15, 25, 40]
 iterations_count = 20
 epochs_list = [2]
 batch_size_list = [400]
@@ -46,53 +46,55 @@ train_labels_cat = keras.utils.to_categorical(y_train, NUM_CLASSES)
 test_labels_cat = keras.utils.to_categorical(y_test, NUM_CLASSES)
 
 results = []
-dropout = 0
-for epochs in epochs_list:
-    for batch_size in batch_size_list:
-        f = open("nn.txt", "a")
-        f.write(f'\n    Epochs: {epochs}, Batch size: {batch_size}, Iterations: {iterations_count} ({hidden_layer_size})\n\n')
-        f.close()
-        while(dropout < 0.91):
-            tmp = []
-            times = []
-            for j in range(iterations_count):
-                model = Sequential()
-                model.add(Dense(hidden_layer_size, activation='relu', input_shape=(size,)))
-                model.add(Dropout(dropout))
-                model.add(Dense(NUM_CLASSES, activation='softmax'))
-
-                model.compile(loss=keras.losses.categorical_crossentropy,
-                              optimizer=tensorflow.keras.optimizers.Adam(learning_rate=learning_rate,
-                                                                         beta_1=alpha,
-                                                                         beta_2=beta,
-                                                                         epsilon=EPSILON,
-                                                                         amsgrad=False,
-                                                                         name='Adam', ),
-                              metrics=['accuracy'])
-
-                tic = time.perf_counter()
-                hist = model.fit(train_data,
-                                 train_labels_cat,
-                                 batch_size=batch_size,
-                                 epochs=epochs,
-                                 verbose=0,
-                                 validation_data=(test_data, test_labels_cat))
-                toc = time.perf_counter()
-                times.append((toc - tic) * 1000)
-                score = model.evaluate(test_data, test_labels_cat, verbose=0)
-                tmp.append(score[1])
-            results.append({
-                "dp": round(dropout * 100, 1),
-                "acc": ave(tmp) * 100,
-                "time": ave(times)
-            })
+for layer_size in hidden_layer_size_list:
+    for epochs in epochs_list:
+        for batch_size in batch_size_list:
             f = open("nn.txt", "a")
-            f.write(f'Dropout: {results[-1]["dp"]:4.{1}f}%, Accuracy: {results[-1]["acc"]:.{3}f}%, Min: {(min(tmp)*100):.{2}f}%, Max: {(max(tmp)*100):.{2}f}%, Time: {results[-1]["time"]:.{3}f}ms\n')
+            f.write(f'\n    Epochs: {epochs}, Batch size: {batch_size}, Iterations: {iterations_count} ({layer_size})\n\n')
             f.close()
-            dropout += dropout_step
+            dropout = 0
+            while(dropout < 0.91):
+                tmp = []
+                times = []
+                for j in range(iterations_count):
+                    model = Sequential()
+                    model.add(Dense(layer_size, activation='relu', input_shape=(size,)))
+                    model.add(Dropout(dropout))
+                    model.add(Dense(NUM_CLASSES, activation='softmax'))
 
-f = open("nn.txt", "a")
-f.write('\nFor excel:\n')
-for r in results:
-    f.write(f'{r["dp"]:4.{1}f}\t{r["acc"]:.{3}f}\t{r["time"]:.{3}f}\n')
-f.close()
+                    model.compile(loss=keras.losses.categorical_crossentropy,
+                                  optimizer=tensorflow.keras.optimizers.Adam(learning_rate=learning_rate,
+                                                                             beta_1=alpha,
+                                                                             beta_2=beta,
+                                                                             epsilon=EPSILON,
+                                                                             amsgrad=False,
+                                                                             name='Adam', ),
+                                  metrics=['accuracy'])
+
+                    tic = time.perf_counter()
+                    hist = model.fit(train_data,
+                                     train_labels_cat,
+                                     batch_size=batch_size,
+                                     epochs=epochs,
+                                     verbose=0,
+                                     validation_data=(test_data, test_labels_cat))
+                    toc = time.perf_counter()
+                    times.append((toc - tic) * 1000)
+                    score = model.evaluate(test_data, test_labels_cat, verbose=0)
+                    tmp.append(score[1])
+                results.append({
+                    "dp": round(dropout * 100, 1),
+                    "acc": ave(tmp) * 100,
+                    "time": ave(times)
+                })
+                f = open("nn.txt", "a")
+                f.write(f'Dropout: {results[-1]["dp"]:4.{1}f}%, Accuracy: {results[-1]["acc"]:.{3}f}%, Min: {(min(tmp)*100):.{2}f}%, Max: {(max(tmp)*100):.{2}f}%, Time: {results[-1]["time"]:.{3}f}ms\n')
+                f.close()
+                dropout += dropout_step
+
+        f = open("nn.txt", "a")
+        f.write('\nFor excel:\n')
+        for r in results:
+            f.write(f'{r["dp"]:4.{1}f}\t{r["acc"]:.{3}f}\t{r["time"]:.{3}f}\n')
+        f.close()
+        results.clear()
